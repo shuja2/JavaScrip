@@ -7,17 +7,16 @@ function performOperation() {
     if (!isNaN(num1) && !isNaN(num2)) {
         // Perform the operation
         let result = multiply(num1, num2);
-
         // Display the result
         displayResult(result);
+
         //now sum up numbers
         result = sum(num1, num2);
-
         // Display the result
         displayResult(result);
+
         //now divide
         result = divide(num1, num2);
-
         // Display the result
         displayResult(result);
     } else {
